@@ -12,12 +12,13 @@ import Header from "./components/Header";
 import HeroPg from "./components/HeroPg";
 import KnowMore from "./components/KnowMore";
 import Footer from "./components/Footer";
+import OrangeBox from "./components/OrangeBox";
 const App = () => {
   return (
     <div>
       <div className="container">
-        <Header/>
-        <HeroPg/>
+        <Header />
+        <HeroPg />
         <h2 className="h2">Up to -40% 🎊 Order.uk exclusive deals</h2>
         <div className="salesBox ">
           {sale.map((card) => (
@@ -64,9 +65,11 @@ const App = () => {
             />
           ))}
         </div>
-        <KnowMore/>
+        <KnowMore />
+        <OrangeBox />
       </div>
-   <Footer/>
+
+      <Footer />
     </div>
   );
 };

@@ -570,3 +570,36 @@ background-color: var(--knowBg);
     flex-direction: column;
     gap: 4px;
 }
+.orangeBoxCard h1{
+    font-size: 64px;
+        font-weight: 300;
+        line-height: 38px;
+        color: var(--white);
+}
+.orangeBoxCard h6 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    color: var(--white);
+}
+.orangeBoxCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-right: 1px solid var(--knowBg);
+    background-color: var(--orange);
+padding: 0 37px;
+
+}
+.noBorder{
+    border: none;
+}
+.orangeBox{
+    margin-top: 44px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 45px;
+    background-color: var(--orange);
+}
